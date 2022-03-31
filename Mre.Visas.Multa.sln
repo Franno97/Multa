@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB4F1EE2-F264-4568-8C1D-6D933191972E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.Multa.Domain", "src\Mre.Visas.Multa.Domain\Mre.Visas.Multa.Domain.csproj", "{950EEB18-3131-49FF-8E6D-8FE930BB8EB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.Multa.Application", "src\Mre.Visas.Multa.Application\Mre.Visas.Multa.Application.csproj", "{7F95203D-3E92-4703-AB3F-2DFCF6EA494D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.Multa.Infrastructure", "src\Mre.Visas.Multa.Infrastructure\Mre.Visas.Multa.Infrastructure.csproj", "{5C333C99-41F5-4798-BC5D-C4416630DBD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mre.Visas.Multa.Api", "src\Mre.Visas.Multa.Api\Mre.Visas.Multa.Api.csproj", "{322BE8CE-1F02-47BB-A3E3-A3747046838D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950EEB18-3131-49FF-8E6D-8FE930BB8EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950EEB18-3131-49FF-8E6D-8FE930BB8EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950EEB18-3131-49FF-8E6D-8FE930BB8EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950EEB18-3131-49FF-8E6D-8FE930BB8EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F95203D-3E92-4703-AB3F-2DFCF6EA494D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F95203D-3E92-4703-AB3F-2DFCF6EA494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F95203D-3E92-4703-AB3F-2DFCF6EA494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F95203D-3E92-4703-AB3F-2DFCF6EA494D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C333C99-41F5-4798-BC5D-C4416630DBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C333C99-41F5-4798-BC5D-C4416630DBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C333C99-41F5-4798-BC5D-C4416630DBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C333C99-41F5-4798-BC5D-C4416630DBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322BE8CE-1F02-47BB-A3E3-A3747046838D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322BE8CE-1F02-47BB-A3E3-A3747046838D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322BE8CE-1F02-47BB-A3E3-A3747046838D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322BE8CE-1F02-47BB-A3E3-A3747046838D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{950EEB18-3131-49FF-8E6D-8FE930BB8EB8} = {DB4F1EE2-F264-4568-8C1D-6D933191972E}
+		{7F95203D-3E92-4703-AB3F-2DFCF6EA494D} = {DB4F1EE2-F264-4568-8C1D-6D933191972E}
+		{5C333C99-41F5-4798-BC5D-C4416630DBD9} = {DB4F1EE2-F264-4568-8C1D-6D933191972E}
+		{322BE8CE-1F02-47BB-A3E3-A3747046838D} = {DB4F1EE2-F264-4568-8C1D-6D933191972E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CD394AF-17CF-4DA7-9019-5FF282FEE260}
+	EndGlobalSection
+EndGlobal
